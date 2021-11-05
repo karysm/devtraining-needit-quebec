@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sumula" max_length="40" name="x_58872_needit_sumula" sizeclass="0" type="collection">
+        <element label="Procedimento" max_length="32" name="procedimento" reference="x_58872_needit_processos" type="reference"/>
+        <element label="Tipo de Flexibilização" max_length="32" name="tipo_flexibilizacao" reference="x_58872_needit_relacionamento_procedimento_flexibiliza_o" reference_qual="javascript:'procedimento=' + current.procedimento + '^EQ';" type="reference" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="tipo_flexibilizacao"/>
+        </index>
+        <index name="index2">
+            <element name="procedimento"/>
+        </index>
+    </element>
+</database>

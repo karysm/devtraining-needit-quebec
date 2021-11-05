@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Processos" max_length="40" name="x_58872_needit_processos" sizeclass="3" type="collection">
+        <element display="true" label="Procedimento" max_length="100" name="procedimento" type="string"/>
+    </element>
+</database>
